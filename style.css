@@ -1,0 +1,176 @@
+@media screen {
+    *{
+        margin: 0;
+        padding: 0;
+        }
+        /*background-image*/
+        body{
+        background-image: url('images/maldives-resort-swimming-pool-beach-wallpaper-preview.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        opacity: 0.9;
+    
+    
+        }
+        nav{
+            background-color:rgb(29, 120, 223);
+            align-items: center;
+            justify-content:space-around;
+            display: flex;
+            width: 100%;
+            height: 60px;
+            letter-spacing: 2px;
+            word-spacing: 3px;
+          
+        }
+      
+        nav ul li{
+            text-transform: capitalize;
+            color:white;
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+    
+            display: inline;
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            letter-spacing: 2px;
+             margin-left: auto;
+             margin-right: auto;
+             width: 40%;
+         /*   border: 3px solid rgb(216, 221, 216);*/
+            padding: 20px;
+        }
+        nav ul li:hover{
+            color: red;
+            font-size: 20px;
+            
+        }
+        .nav h2{
+            font-size: 30px;
+        }
+        .logo{
+            color:#f3f710;
+        }
+        span{
+            color: white;
+        }
+        /*
+        .btn{
+            text-decoration: none;
+            text-transform: capitalize;
+            border-radius: 80px;
+            border-bottom: 20px;
+            font-size: 20px;
+            background-color:rgb(230, 200, 212);
+            margin: auto;
+        } */
+        main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-60%, -60%);
+            text-align: center;
+        }
+          .text h3{
+             margin: 0;
+             position: absolute;
+             font-weight: 800;
+              top: 50%;
+              left: 50%;
+             -ms-transform: translate(-60%, -60%);
+             transform: translate(-60%, -60%);
+             text-transform: capitalize;
+             color:#f3f710;
+             padding: 50px;
+             font-family: 'Roboto', sans-serif;
+             font-size:43px;
+             font-family: cursive;
+             letter-spacing: 2px;
+             
+    
+          }
+         .text p{
+            top:50%;
+            left:40%;
+            text-transform: capitalize;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding:23%;
+            word-spacing: 1px;
+            letter-spacing: 2px;
+           /* lespace bin zouz hajet*/ margin-bottom: 0px;
+        }
+         
+        .btn1{
+            margin: 0px 10px;
+            top: 50%;
+            left: 50%;
+            border: 2px solid #f3f710 ;
+            padding: 13px 35px;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            border-radius: 30px;
+            background-color: #f3f710;
+            text-decoration: none;
+            margin-bottom: 0px;
+        }
+        .btn1:hover{
+            border: 2px solid  #f3f710;
+            color:#f3f710;
+            background-color: white;
+            
+        }
+        .btn2{
+            margin: 0px 10px;
+            top: 50%;
+            left: 50%;
+            border: 2px solid  white;
+            padding: 13px 35px;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            border-radius: 30px;
+            color: #f3f710;
+            background-color: white;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .btn2:hover{
+            border: 2px solid  white;
+            color:white;
+            background-color:#f3f710;
+            animation-name: wobble-hor-top;
+
+            
+            
+        }
+          .btn2{
+            color: pink;
+            size: 30px;
+    
+          }
+          
+          @keyframes slide-fwd-top{0%{transform:translateZ(0) translateY(0)}100%{transform:translateZ(160px) translateY(-100px)}}      
+     /*   #design{
+            color: yellow;
+        }
+        #design::first-letter{
+            color: red;
+        }
+        */
+        .text h3{
+            animation-name:  slide-fwd-top;
+            animation-duration: 5s;
+            animation-delay:2s ;
+            animation-iteration-count: 5;
+            animation-direction: alternate;
+        }
+        .text h3:hover{
+            animation-name: slide-bck-tl;
+            animation-duration: 3s;
+        
+        }
+    
+}
